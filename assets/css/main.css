@@ -1,16 +1,17 @@
-/**
-* Template Name: iPortfolio
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Updated: Jun 29 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+/* WhatsApp Button Styling */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;  /* Adjust this value to move the button up/down */
+  right: 20px;   /* Adjust this value to move the button left/right */
+  z-index: 1000; /* Make sure it stays on top */
+}
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
-/* Fonts */
+.whatsapp-button img {
+  width: 60px;  /* Adjust size of the WhatsApp image */
+  height: auto;
+  cursor: pointer;
+}
+
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
